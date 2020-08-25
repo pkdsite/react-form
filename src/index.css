@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login-base {
+	text-align: center;
+	padding: 6rem 6rem 0;
+	margin: auto;
+	max-width: 768px;
+	margin-top: 9rem;
+	display: block;
+	float: none;
+}
+
+.login-base h1 {
+	font-size: 4rem;
+	color: #fee495;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .8rem;
+	text-indent: .8rem;
+	line-height: 4rem;
+	margin-top: 0;
+	margin-bottom: 3rem;
+}
+
+.login-base h2 {
+	color: #fff;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.login-base h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.login-base h2 {
+  margin: 0;
+}
+
+.button {
+	background-color: #68b9ec;
+	border-radius: 100rem;
+	color: #ffffff;
+	transition: all .3s ease-in-out 0s;
+	padding: .8rem 2rem .7rem;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	letter-spacing: .1rem;
+	text-indent: -.05rem;
+	font-size: .9rem;
+	font-weight: 500;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	height: 3.2rem;
+	border: none;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+.button:active {
+	transform: scale(.9);
+}
